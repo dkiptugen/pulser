@@ -1,6 +1,6 @@
 @font-face {
    font-family: FiraSans;
-   src: url(./assets/fonts/FiraSans-Bold);
+   src: url('./assets/fonts/FiraSans-Bold');
 }
 body {
   color: #777777;
@@ -65,7 +65,7 @@ body {
   background: #f5ed08;
   position:relative;
 }
-`.bg-blck{
+.bg-blck{
   background: #000;shape-margin: 50px;
 }
 .titlebox{
@@ -81,9 +81,9 @@ body {
   padding-top: 3px;
   color: #f5ed08;
 }
+
 .title{
-  color:#FC9037;
-  font-size: 16pt !important;
+  color:#000;
 }
 .bg-transparent{
   background: transparent;
@@ -142,7 +142,7 @@ body {
   padding-bottom: 3px;
   padding-top: 3px;
   color: #fff;
-  z-index: 10,
+  z-index: 10;
 }
 .titletext2{
   position: absolute;
@@ -233,14 +233,17 @@ body {
    font-size: 18pt  !important;
    font-weight: 600;
  }
- .byline{
+ .byline {
   font-family: roboto ;
   font-weight: 400 ;
   font-size: 10px ;
   color: #8dc641;
-  text-transform:italic;
 }
-..input-group{
+.scoop a{
+	color: #8dc641;
+	font-size: 13px;
+}
+.input-group{
       padding-right: 167px;
 }
 .form-control{
@@ -262,6 +265,24 @@ body {
   margin: 36px;
 }
 
+.border-bottom {
+	border-bottom: .0640rem solid #929296 !important;
+}
+.lifestyle-section a {
+	color: #fff;
+	font-size: 13px;
+}
+.byline span {
+	color: #86c64e;
+}
+
+.top-banner-highlights {
+	float: right;
+	margin: 8px;
+}
+.superlay h1, h2 {
+	float: right;
+}
 /*figure.effect-apollo {
   margin: 0px !important;
 }
@@ -373,7 +394,7 @@ figure.effect-apollo:hover p {
   height: 100%;
 }*/
 /*  object-position: 100% 100%  !important;
-*/}
+*/
 /*.bg-blue .apollo-holder img{
   object-fit: contain !important;
   width: 100% !important

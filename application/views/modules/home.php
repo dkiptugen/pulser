@@ -23,7 +23,7 @@
 								<img src="./assets/css/play.png" height="30" alt="">
 							</div>
 							<div class="col-9 pl-0">
-								<a href="" class="btn btn-danger rounded-0 px-3 py-0 mb-2">VIRAL</a>
+								<a href="" class="btn btn-danger top-banner-highlights rounded-0 px-3 py-0 mb-2">VIRAL</a>
 								<h1>
 									<a href="" class="text-white">
 										Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet non quibusdam delectus qui. 
@@ -45,7 +45,7 @@
 								<img src="./assets/css/play.png" height="30" alt="">
 							</div>
 							<div class="col-9 pl-0 ">
-								<a href="" class="btn btn-danger rounded-0 px-3 py-0 mb-2">VIRAL</a>
+								<a href="" class="btn btn-danger rounded-0 top-banner-highlights px-3 py-0 mb-2">VIRAL</a>
 								<h2>
 									<a href="" class="text-white text-justified">
 										Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet non quibusdam delectus qui. 
@@ -67,10 +67,10 @@
 								<img src="./assets/css/play.png" height="30" alt="">
 							</div>
 							<div class="col-9 pl-0 ">
-								<a href="" class="btn btn-danger rounded-0 px-3 py-0 mb-2">VIRAL</a>
+								<a href="" class="btn btn-danger top-banner-highlights rounded-0 px-3 py-0 mb-2">VIRAL</a>
 								<h2>
 									<a href="" class="text-white text-justified">
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet non quibusdam delectus qui. 
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet non quibusdam delectus qui.
 									</a>
 								</h2>
 							</div>
@@ -81,7 +81,7 @@
 		</div>
 		<div class="mainbody row py-4 px-4 mt-5 bg-white" >
 			<div class="col-md-3 col-12">
-				<div class="titlebold" >LATEST STORIES</div>
+				<div class="titlebold" >ALL ACCESS</div>
 				<div class="cardi pb-2">
 					<div class="apollo-holder">
 						<figurie class="effect-apollo">
@@ -106,6 +106,7 @@
 					</div>
 					<div class="title">Wyre, born Kevin Waire, is promoting and nurturing talents</div>
 				</div>
+				<div class="titlebold" >LIFESTYLE</div>
 				<div class="cardi pb-2">
 					<div class="apollo-holder">
 						<figurie class="effect-apollo">
@@ -168,7 +169,7 @@
 					<img src="./assets/images/center3.jpg" alt="video1" style="max-width: 100%; max-height: 100%; padding-bottom: 20px;"/>
 				</figurie>
 			</div>
-			<div class="col-md-3 mt-4 W-100" style="padding-left: 2px;">
+			<div class="col-md-3 scoop mt-4 W-100" style="padding-left: 2px;">
 				<img src="./assets/images/advert2.jpg" alt="video1" style="max-width:100%;"/>
 				<div class="titlebold " >SCOOP</div>
 				<div class="media  py-2 ">
@@ -267,44 +268,44 @@
 	
 	<div class="design py-3 bg-black">
 		<div class="container">
-			<div class="titlebold">VIRAL</div>
+			<div class="titlebold">LIFESTYLE</div>
 			<div class="row">
 				<div class="col-md-8">
 					<img src="./assets/images/mainvideo.jpg" alt="video1;"style="max-width:100%;">
 				</div>
 				<div class="col-md-4">
-					<div class="media  py-2 ">
+					<div class="media lifestyle-section  py-2 ">
 						<img class="mr-3" src="./assets/images/side1.jpg" alt="Generic placeholder image">
 						<div class="media-body">
-							<div class=" byline">
-								<a href="#" style="position: absolute;width: auto;">Posted by Njambi Mungai  /  1hr ago </a>
+							<div class="byline">
+								<a href="#" style="position: absolute;width: auto;"><span>HEALTH</span>  /  1hr ago </a>
 							</div>
 							<h5 class="mt-0 mediahead mt-4"style="position: absolute;color: #fff">War on contraband goods, KEBs seizes tonnes of illegal sugar. </h5>
 						</div>
 					</div>
-					<div class="media  py-2 ">
+					<div class="media lifestyle-section  py-2 ">
 						<img class="mr-3" src="./assets/images/side2.jpg" alt="Generic placeholder image">
 						<div class="media-body">
 							<div class=" byline">
-								<a href="#" style="position: absolute;width: auto;">Posted by Njambi Mungai  /  1hr ago </a>
+								<a href="#" style="position: absolute;width: auto;"><span>BEAUTY</span>  /  1hr ago </a>
 							</div>
 							<h5 class="mt-0 mediahead mt-4"style="position: absolute;color: #fff">War on contraband goods, KEBs seizes tonnes of illegal sugar. </h5>
 						</div>
 					</div>
-					<div class="media  py-2 ">
+					<div class="media lifestyle-section py-2 ">
 						<img class="mr-3" src="./assets/images/side3.jpg" alt="Generic placeholder image">
 						<div class="media-body">
 							<div class=" byline">
-								<a href="#" style="position: absolute;width: auto;">Posted by Njambi Mungai  /  1hr ago </a>
+								<a href="#" style="position: absolute;width: auto;"><span>TRAVEL</span>  /  1hr ago </a>
 							</div>
 							<h5 class="mt-0 mediahead mt-4"style="position: absolute;color: #fff">War on contraband goods, KEBs seizes tonnes of illegal sugar. </h5>
 						</div>
 					</div>
-					<div class="media  py-2 ">
+					<div class="media lifestyle-section  py-2 ">
 						<img class="mr-3" src="./assets/images/side4.jpg" alt="Generic placeholder image">
 						<div class="media-body">
 							<div class=" byline">
-								<a href="#" style="position: absolute;width: auto;">Posted by Njambi Mungai  /  1hr ago </a>
+								<a href="#" style="position: absolute;width: auto;"><span>FITNESS</span>  /  1hr ago </a>
 							</div>
 							<h5 class="mt-0 mediahead mt-4"style="position: absolute;color: #fff">War on contraband goods, KEBs seizes tonnes of illegal sugar. </h5>
 						</div>

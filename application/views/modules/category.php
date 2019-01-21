@@ -1,5 +1,4 @@
 <main>
-
     <div class="container" style="padding-top: 87px;">
         <div class="row">
             <div class="col-md-8">
@@ -7,26 +6,24 @@
                     <div class="row">
                         <div class="col-md-7">
                             <div class="titlebold">ALL ACCESS</div>
-                            <div class="iconbtn"style="position: absolute; padding: 181px;;"><img src="./assets/images/playsmall.png" alt=""> </div>
+                            <div class="iconbtn"style="position: absolute; padding: 181px;;"><img src="<?php echo base_url()?>assets/images/playsmall.png" alt=""> </div>
                             <div class="titletext6"style="z-index: 10;">Kevin Waire, promoting and nurturing talents</div>
                             <div class="titletext7"style="z-index: 10;">nurturing talents of youths in Turkana through the “Finding a Star” Project
                                 in collaboration with an organisation called FilmAid... </div>
-                            <img src="./assets/images/imgca0.jpg" alt="video1" style="max-width: 100%; max-height: 100%; padding-bottom: 20px;"/>
-
-
+                            <img src="<?php echo base_url()?>assets/images/imgca0.jpg" alt="video1" style="max-width: 100%; max-height: 100%; padding-bottom: 20px;"/>
                         </div>
                         <div class="col-md-5"style="padding-top: 32px;">
                             <div class="cardi"style="padding-bottom: 20px;">
-                                <div class="iconbtn"style="position: absolute;padding: 6px;"><img src="./assets/images/playsmall.png" alt=""> </div>
-                                <img src="./assets/images/imgcat2.jpg" alt="video1" style="max-width: 100%; max-height: 100%;"/>
+                                <div class="iconbtn"style="position: absolute;padding: 6px;"><img src="<?php echo base_url()?>assets/images/playsmall.png" alt=""> </div>
+                                <img src="<?php echo base_url()?>assets/images/imgcat2.jpg" alt="video1" style="max-width: 100%; max-height: 100%;"/>
                             </div>
                             <div class="justify-content-around byline">
                                 <a href="#">Posted by Njambi Mungai  /  1hr ago </a>
                             </div>
                             <div class="title">Calvo Mistari & Bobby Mapesa Release “Nawapenda wote”</div>
                             <div class="cardi"style="padding-bottom: 20px;">
-                                <div class="iconbtn"style="position: absolute;padding: 6px;"><img src="./assets/images/playsmall.png" alt=""> </div>
-                                <img src="./assets/images/imgcat3.jpg" alt="video1" style="max-width: 100%; max-height: 100%;"/>
+                                <div class="iconbtn"style="position: absolute;padding: 6px;"><img src="<?php echo base_url()?>assets/images/playsmall.png" alt=""> </div>
+                                <img src="<?php echo base_url()?>assets/images/imgcat3.jpg" alt="video1" style="max-width: 100%; max-height: 100%;"/>
                             </div>
                             <div class="justify-content-around byline">
                                 <a href="#">Posted by Njambi Mungai  /  1hr ago </a>
