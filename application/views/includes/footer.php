@@ -34,7 +34,7 @@
 					<p>Pulser is a product of The Standard Group PLC</p>
 				</div>
 				<div class="col-md-6">
-					<p>©2018  |  Privacy policy  |  Terms of service | Our Contacts</p>
+					<p>©<?php echo date('Y');?>  |  Privacy policy  |  Terms of service | Our Contacts</p>
 				</div>
 			</div>
 		</div>
