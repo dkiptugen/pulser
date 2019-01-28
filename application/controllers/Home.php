@@ -11,8 +11,9 @@ class Home extends CI_Controller
 		    }
 		public function index()
 			{
-				$this->data['top']		=	$this->hmod->getTop(3);
-				$this->data['latest']	=	$this->hmod->getLatest(5);
+				$this->data['navs']     =   $this->hmod->getNavigation();
+				$this->data['accesses']		=	$this->hmod->getCategoryLatest(434,2);
+				$this->data['latest']	=	$this->hmod->getLatest(3);
 				$this->data["view"] 	=   "home";
 				$this->load->view('structure',$this->data);
 			}
@@ -38,4 +39,3 @@ class Home extends CI_Controller
 			}			
 	}
 
-	

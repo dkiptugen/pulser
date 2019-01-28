@@ -30,7 +30,7 @@
 	
 		
 		<nav class="navbar navbar-expand-lg bg-black">
-			<span class="container"><a class="navbar-brand" href="#">
+			<span class="container"><a class="navbar-brand" href="<?=base_url('/');?>">
 					<img src="<?=base_url('assets/images/logo.png'); ?>" alt="">
 				</a>
 				<button class="navbar-toggler  text-white" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
