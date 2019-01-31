@@ -320,30 +320,21 @@
 			<div class="col-md-9">
 				<div class="col-md-12">
 					<div class="row">
+						<?php
+						foreach ($parties as $party):?>
 						<div class="col-md-4">
-							<img src="./assets/images/eric.png" alt="event" style="max-width: 100%; max-height: 100%;"/>
-							<h5 class="titleside m-0">Hoja ya Naibu Rais yaangaziwa Tharaka I Mbiu Wikendi</h5>
-							<i class="fas fa-play-circle m-0"></i>
-							<div class="byline m-0">
-								<a href="#">1hours ago</a>
-							</div>
+							<a href="">
+								<div class="w-100" style="height:250px">
+								<img src="https://www.standardmedia.co.ke/<?=$party['thumbURL'];?>" alt="event" style="object-fit:cover; width:100%; height:100%; max-width: 100%; max-height: 100%;"/>
+								</div>
+									<h5 class="titleside m-0"><?=$party['title'];?></h5>
+								<i class="fas fa-play-circle m-0"></i>
+								<div class="byline m-0">
+									<a href="#"><?=$party['posteddate'];?></a>
+								</div>
+							</a>
 						</div>
-						<div class="col-md-4">
-							<img src="./assets/images/superbike.png" alt="event" style="max-width: 100%; max-height: 100%;"/>
-							<h5 class="titleside m-0">Hoja ya Naibu Rais yaangaziwa Tharaka I Mbiu Wikendi</h5>
-							<i class="fas fa-play-circle m-0"></i>
-							<div class="byline m-0">
-								<a href="#">1hours ago</a>
-							</div>
-						</div>
-						<div class="col-md-4">
-							<img src="./assets/images/terminal.png" alt="event" style="max-width: 100%; max-height: 100%;"/>
-							<h5 class="titleside m-0">Hoja ya Naibu Rais yaangaziwa Tharaka I Mbiu Wikendi</h5>
-							<i class="fas fa-play-circle m-0"></i>
-							<div class="byline m-0">
-								<a href="#">1hours ago</a>
-							</div>
-						</div>
+						<?php endforeach; ?>
 					</div>
 				</div>
 				<div class="col-md-12">

@@ -12,10 +12,12 @@ class Home extends CI_Controller
 		public function index()
 			{
 				$this->data['navs']     =   $this->hmod->getNavigation();
-				$this->data['accesses']		=	$this->hmod->getCategoryLatest(434,2);
+				$this->data['parties']	=	$this->hmod->getCategoryLatest(433,3);
 				$this->data['latest']	=	$this->hmod->getLatest(3);
 				$this->data["view"] 	=   "home";
 				$this->load->view('structure',$this->data);
+//				var_dump($this->hmod->getCategoryLatest(433,3));
+//				die();
 			}
 		public function category($id,$title=NULL)
 			{
