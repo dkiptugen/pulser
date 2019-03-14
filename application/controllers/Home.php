@@ -38,6 +38,17 @@ class Home extends CI_Controller
 			{
 				$this->data["view"] =   "home";
 				$this->load->view('structure',$this->data);
-			}			
+			}
+		public function photos()
+			{
+				$this->data["view"] =   "photoscategory";
+				$this->load->view('structure',$this->data);
+			}
+		public function videos()
+			{
+				$this->data["view"] =   "videoscategory";
+				$this->load->view('structure',$this->data);
+			}
+
 	}
 

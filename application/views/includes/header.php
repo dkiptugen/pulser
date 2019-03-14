@@ -6,7 +6,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="description" content="">
 	<meta name="author" content="">
-	
 	<!-- <link href="https://fonts.googleapis.com/css?family=Fira+Mono:400,500,700|Fira+Sans+Condensed:400,500,600,700|Fira+Sans+Extra+Condensed:400,600,700|Fira+Sans:400,400i,500,600,700" rel="stylesheet"> -->
 	<link type="text/css" href="<?=base_url('assets/css/custom.css'); ?>" rel="stylesheet">
 	<link type="text/css" href="<?=base_url('assets/css/theme.css'); ?>" rel="stylesheet">

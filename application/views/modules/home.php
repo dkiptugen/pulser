@@ -1,4 +1,34 @@
 <main class="position-relative pt-5">
+	<?php
+	function time_difference($datetime, $full = false) {
+		$now = new DateTime;
+		$ago = new DateTime($datetime);
+		$diff = $now->diff($ago);
+
+		$diff->w = floor($diff->d / 7);
+		$diff->d -= $diff->w * 7;
+
+		$string = array(
+			'y' => 'year',
+			'm' => 'month',
+			'w' => 'week',
+			'd' => 'day',
+			'h' => 'hour',
+			'i' => 'minute',
+			's' => 'second',
+		);
+		foreach ($string as $k => &$v) {
+			if ($diff->$k) {
+				$v = $diff->$k . ' ' . $v . ($diff->$k > 1 ? 's' : '');
+			} else {
+				unset($string[$k]);
+			}
+		}
+
+		if (!$full) $string = array_slice($string, 0, 1);
+		return $string ? implode(', ', $string) . ' ago' : 'just now';
+	}
+	?>
 	
 	<div class="pic-wrapper owl-carousel position-absolute d-none d-md-block">
 		<figure class="pic-1"><img class="d-block w-100" src="./assets/images/slide1.jpg" alt="First slide"></figure>
@@ -6,7 +36,6 @@
 		<figure class="pic-3"><img class="d-block w-100" src="./assets/images/slide3.jpg" alt="First slide"></figure>
 		<figure class="pic-4"><img class="d-block w-100" src="./assets/images/slide4.jpg" alt="First slide"></figure>
 	</div>
-	
 
 
 	<!--Main body-->
@@ -235,24 +264,7 @@
 						<h5 class="mt-0 mediahead mt-4"style="position: absolute;">War on contraband goods, KEBs seizes tonnes of illegal sugar. </h5>
 					</div>
 				</div>
-				<!--<div class="media  py-2 ">
-				  <img class="mr-3" src="./assets/images/side8.jpg" alt="Generic placeholder image">
-				   <div class="media-body">
-					<div class=" byline">
-					   <a href="#" style="position: absolute;width: auto;">Posted by Njambi Mungai  /  1hr ago </a>
-					</div>
-					<h5 class="mt-0 mediahead mt-4"style="position: absolute;">War on contraband goods, KEBs seizes tonnes of illegal sugar. </h5>
-				  </div>
-				</div>
-				<div class="media  py-2 ">
-				  <img class="mr-3" src="./assets/images/side9.jpg" alt="Generic placeholder image">
-				   <div class="media-body">
-					<div class=" byline">
-					   <a href="#" style="position: absolute;width: auto;">Posted by Njambi Mungai  /  1hr ago </a>
-					</div>
-					<h5 class="mt-0 mediahead mt-4"style="position: absolute;">War on contraband goods, KEBs seizes tonnes of illegal sugar. </h5>
-				  </div>
-				</div>-->
+
 				<div class="titlebold " >VLOG OF THE WEEK</div>
 				<img src="./assets/images/vlog.jpg" alt="video1;"style="max-width:100%;">
 			</div>
@@ -328,9 +340,8 @@
 								<img src="https://www.standardmedia.co.ke/<?=$party['thumbURL'];?>" alt="event" style="object-fit:cover; width:100%; height:100%; max-width: 100%; max-height: 100%;"/>
 								</div>
 									<h5 class="titleside m-0"><?=$party['title'];?></h5>
-								<i class="fas fa-play-circle m-0"></i>
 								<div class="byline m-0">
-									<a href="#"><?=$party['posteddate'];?></a>
+									<a href="#"><?=time_difference($party['posteddate']);?></a>
 								</div>
 							</a>
 						</div>

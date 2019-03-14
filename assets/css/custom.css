@@ -415,3 +415,18 @@ figure.effect-apollo:hover p {
   color: #8dc641;
   margin-bottom: 14px
 }
+.tag-line h3 {
+	color: orange;
+	margin: 0 10px 0 15px;
+	font-size: 20px;
+}
+
+.tag-line hr {
+	height:3px;
+	border:none;
+	color:#000;
+	background-color:#D3D3D3;
+	width:100%;
+	text-align:left;
+	margin: 0 10px 15px 15px;
+}
